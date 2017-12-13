@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172A3F2C1F3AD8A70052C0C8 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A3F2B1F3AD8A70052C0C8 /* Photo.swift */; };
+		172A3F301F3AE1440052C0C8 /* PhotoFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A3F2F1F3AE1440052C0C8 /* PhotoFeedTableViewController.swift */; };
+		172A3F321F3AE5E80052C0C8 /* PhotoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172A3F311F3AE5E80052C0C8 /* PhotoCellTableViewCell.swift */; };
+		17463AC81F42D1E0006868C4 /* LikedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17463AC71F42D1E0006868C4 /* LikedTableViewController.swift */; };
+		1784B7251F42EC29002FFA72 /* Liked+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7231F42EC29002FFA72 /* Liked+CoreDataProperties.swift */; };
+		1784B7261F42EC29002FFA72 /* Liked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1784B7241F42EC29002FFA72 /* Liked.swift */; };
+		17928B191F3ACF0000F5FDEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17928B181F3ACF0000F5FDEF /* AppDelegate.swift */; };
+		17928B1E1F3ACF0000F5FDEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17928B1C1F3ACF0000F5FDEF /* Main.storyboard */; };
+		17928B211F3ACF0000F5FDEF /* Photowall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17928B1F1F3ACF0000F5FDEF /* Photowall.xcdatamodeld */; };
+		17928B231F3ACF0000F5FDEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17928B221F3ACF0000F5FDEF /* Assets.xcassets */; };
+		17928B261F3ACF0000F5FDEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17928B241F3ACF0000F5FDEF /* LaunchScreen.storyboard */; };
+		17928B2E1F3AD4ED00F5FDEF /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17928B2D1F3AD4ED00F5FDEF /* Feed.swift */; };
+		17FC12211F3AF81E00B96ADF /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FC12201F3AF81E00B96ADF /* PhotoDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172A3F2B1F3AD8A70052C0C8 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		172A3F2F1F3AE1440052C0C8 /* PhotoFeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoFeedTableViewController.swift; sourceTree = "<group>"; };
+		172A3F311F3AE5E80052C0C8 /* PhotoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCellTableViewCell.swift; sourceTree = "<group>"; };
+		17463AC71F42D1E0006868C4 /* LikedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikedTableViewController.swift; sourceTree = "<group>"; };
+		17463AD41F42D424006868C4 /* Photowall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photowall-Bridging-Header.h"; sourceTree = "<group>"; };
+		1784B7231F42EC29002FFA72 /* Liked+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Liked+CoreDataProperties.swift"; path = "../Liked+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1784B7241F42EC29002FFA72 /* Liked.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Liked.swift; path = ../Liked.swift; sourceTree = "<group>"; };
+		17928B151F3ACF0000F5FDEF /* Photowall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photowall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17928B181F3ACF0000F5FDEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17928B1D1F3ACF0000F5FDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17928B201F3ACF0000F5FDEF /* Photowall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photowall.xcdatamodel; sourceTree = "<group>"; };
+		17928B221F3ACF0000F5FDEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17928B251F3ACF0000F5FDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17928B271F3ACF0000F5FDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17928B2D1F3AD4ED00F5FDEF /* Feed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		17FC12201F3AF81E00B96ADF /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17928B121F3ACF0000F5FDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17928B0C1F3ACF0000F5FDEF = {
+			isa = PBXGroup;
+			children = (
+				17928B171F3ACF0000F5FDEF /* Photowall */,
+				17928B161F3ACF0000F5FDEF /* Products */,
+				17463AD41F42D424006868C4 /* Photowall-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		17928B161F3ACF0000F5FDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17928B151F3ACF0000F5FDEF /* Photowall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17928B171F3ACF0000F5FDEF /* Photowall */ = {
+			isa = PBXGroup;
+			children = (
+				1784B7231F42EC29002FFA72 /* Liked+CoreDataProperties.swift */,
+				1784B7241F42EC29002FFA72 /* Liked.swift */,
+				17928B181F3ACF0000F5FDEF /* AppDelegate.swift */,
+				17928B1C1F3ACF0000F5FDEF /* Main.storyboard */,
+				17928B221F3ACF0000F5FDEF /* Assets.xcassets */,
+				17928B241F3ACF0000F5FDEF /* LaunchScreen.storyboard */,
+				17928B271F3ACF0000F5FDEF /* Info.plist */,
+				17928B1F1F3ACF0000F5FDEF /* Photowall.xcdatamodeld */,
+				17928B2D1F3AD4ED00F5FDEF /* Feed.swift */,
+				172A3F2B1F3AD8A70052C0C8 /* Photo.swift */,
+				172A3F2F1F3AE1440052C0C8 /* PhotoFeedTableViewController.swift */,
+				17463AC71F42D1E0006868C4 /* LikedTableViewController.swift */,
+				172A3F311F3AE5E80052C0C8 /* PhotoCellTableViewCell.swift */,
+				17FC12201F3AF81E00B96ADF /* PhotoDetailViewController.swift */,
+			);
+			path = Photowall;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17928B141F3ACF0000F5FDEF /* Photowall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17928B2A1F3ACF0000F5FDEF /* Build configuration list for PBXNativeTarget "Photowall" */;
+			buildPhases = (
+				17928B111F3ACF0000F5FDEF /* Sources */,
+				17928B121F3ACF0000F5FDEF /* Frameworks */,
+				17928B131F3ACF0000F5FDEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photowall;
+			productName = Photowall;
+			productReference = 17928B151F3ACF0000F5FDEF /* Photowall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17928B0D1F3ACF0000F5FDEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Inohive;
+				TargetAttributes = {
+					17928B141F3ACF0000F5FDEF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = MXZRE6EFX6;
+					};
+				};
+			};
+			buildConfigurationList = 17928B101F3ACF0000F5FDEF /* Build configuration list for PBXProject "Photowall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17928B0C1F3ACF0000F5FDEF;
+			productRefGroup = 17928B161F3ACF0000F5FDEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17928B141F3ACF0000F5FDEF /* Photowall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17928B131F3ACF0000F5FDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17928B261F3ACF0000F5FDEF /* LaunchScreen.storyboard in Resources */,
+				17928B231F3ACF0000F5FDEF /* Assets.xcassets in Resources */,
+				17928B1E1F3ACF0000F5FDEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17928B111F3ACF0000F5FDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17928B2E1F3AD4ED00F5FDEF /* Feed.swift in Sources */,
+				17463AC81F42D1E0006868C4 /* LikedTableViewController.swift in Sources */,
+				17928B191F3ACF0000F5FDEF /* AppDelegate.swift in Sources */,
+				17928B211F3ACF0000F5FDEF /* Photowall.xcdatamodeld in Sources */,
+				17FC12211F3AF81E00B96ADF /* PhotoDetailViewController.swift in Sources */,
+				1784B7251F42EC29002FFA72 /* Liked+CoreDataProperties.swift in Sources */,
+				172A3F301F3AE1440052C0C8 /* PhotoFeedTableViewController.swift in Sources */,
+				172A3F321F3AE5E80052C0C8 /* PhotoCellTableViewCell.swift in Sources */,
+				1784B7261F42EC29002FFA72 /* Liked.swift in Sources */,
+				172A3F2C1F3AD8A70052C0C8 /* Photo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17928B1C1F3ACF0000F5FDEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17928B1D1F3ACF0000F5FDEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17928B241F3ACF0000F5FDEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17928B251F3ACF0000F5FDEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17928B281F3ACF0000F5FDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17928B291F3ACF0000F5FDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17928B2B1F3ACF0000F5FDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Photowall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inohive.Photowall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Photowall-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17928B2C1F3ACF0000F5FDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Photowall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.inohive.Photowall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Photowall-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17928B101F3ACF0000F5FDEF /* Build configuration list for PBXProject "Photowall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17928B281F3ACF0000F5FDEF /* Debug */,
+				17928B291F3ACF0000F5FDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17928B2A1F3ACF0000F5FDEF /* Build configuration list for PBXNativeTarget "Photowall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17928B2B1F3ACF0000F5FDEF /* Debug */,
+				17928B2C1F3ACF0000F5FDEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17928B1F1F3ACF0000F5FDEF /* Photowall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17928B201F3ACF0000F5FDEF /* Photowall.xcdatamodel */,
+			);
+			currentVersion = 17928B201F3ACF0000F5FDEF /* Photowall.xcdatamodel */;
+			path = Photowall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 17928B0D1F3ACF0000F5FDEF /* Project object */;
+}
